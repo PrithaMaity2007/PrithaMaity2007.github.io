@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pritha Maity | Biotechnology Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f6f1; --ink:#17251f; --muted:#51615a; --line:#cfd8d1; --accent:#2f6f4f;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#111a16; --ink:#e8efe9; --muted:#9fb0a6; --line:#2a3a32; --accent:#7fcf9f;
+    color-scheme: dark;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font:400 17px/1.65 "Public Sans", system-ui, sans-serif;
+}
+main{max-width:720px; margin:0 auto; padding:56px 22px 80px}
+h1,h2,h3{font-family:"Newsreader", Georgia, serif; font-weight:600; line-height:1.15; margin:0}
+h1{font-size:clamp(2.6rem,8vw,4rem); letter-spacing:-0.01em}
+.lead{font-family:"Newsreader", Georgia, serif; font-size:1.35rem; line-height:1.5; color:var(--muted); margin:18px 0 0; max-width:34em}
+.meta{margin:22px 0 0; color:var(--muted); font-size:.95rem}
+section{margin-top:56px; padding-top:28px; border-top:1px solid var(--line)}
+h2{font-size:1.7rem; margin-bottom:16px}
+p{margin:0 0 14px; max-width:38em}
+.project{padding:18px 0; border-bottom:1px solid var(--line)}
+.project:last-child{border-bottom:0}
+.project h3{font-size:1.25rem; margin-bottom:6px}
+.project p{margin:0; color:var(--muted)}
+.project a{color:var(--accent)}
+.skills{list-style:none; padding:0; margin:0}
+.skills li{padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:16px; flex-wrap:wrap}
+.skills li:last-child{border-bottom:0}
+.skills strong{min-width:9em; font-weight:600}
+.skills span{color:var(--muted)}
+a{color:var(--accent); text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--accent); outline-offset:3px; border-radius:2px}
+.contact a{display:inline-block; margin:0 18px 6px 0; font-weight:500}
+footer{margin-top:56px; color:var(--muted); font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Pritha Maity</h1>
+    <p class="lead">First-year Biotechnology student building a foundation in lab science and bioinformatics, with an M.Sc. abroad as the next step.</p>
+    <p class="meta">B.Sc. Biotechnology, Lovely Professional University</p>
+  </header>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I am a first-year B.Sc. Biotechnology student at Lovely Professional University. I enjoy connecting what I learn in class, from cell biology to biochemistry and genetics, with hands-on projects.</p>
+    <p>I am also learning Python for bioinformatics, because I want to be able to work with both lab data and code.</p>
+  </section>
+
+  <section id="goals">
+    <h2>Career goals</h2>
+    <p>After my B.Sc., I plan to pursue an M.Sc. in a biotechnology specialisation, preferably abroad. I am still exploring which specialisation fits me best, and I am looking for paid internships and projects that help me find out.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="project">
+      <h3>B.Sc. Biotechnology</h3>
+      <p>Lovely Professional University, currently in first year.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Sprouting and nutrition</h3>
+      <p>A continuous assessment project on the biochemical analysis of nutritional changes that happen during sprouting.</p>
+    </div>
+    <div class="project">
+      <h3>Bioinformatics learning with Python</h3>
+      <p>A step-by-step learning path using NumPy, Pandas and Biopython, with my progress kept on GitHub. <a href="https://github.com/PrithaMaity2007/Bioinformatics-learning">View the repository</a>.</p>
+    </div>
+    <div class="project">
+      <h3>Genetic engineering capstone</h3>
+      <p>A project covering STR and PCR genotyping, mutation through base analogs, and the Luria-Delbr&uuml;ck fluctuation test.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li><strong>Laboratory</strong><span>DNA extraction, biochemical analysis basics</span></li>
+      <li><strong>Programming</strong><span>Python (learning): NumPy, Pandas, Biopython</span></li>
+      <li><strong>Subjects</strong><span>Cell biology, biochemistry, nucleic acids</span></li>
+      <li><strong>Tools</strong><span>GitHub, presentations, scientific writing</span></li>
+    </ul>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="project">
+      <h3>Genetic Engineering internship, Scire Science with Launched Global</h3>
+      <p>Certificate of Internship Completion for an online mentorship program, 1 July 2026 to 31 August 2026.</p>
+    </div>
+    <div class="project">
+      <h3>Genetic Engineering mentorship program, Launched Global</h3>
+      <p>Certificate of Course Completion, a verified certificate recognised under Skill India.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Open to internships, projects and mentoring conversations.</p>
+    <a href="mailto:prithamaity152@gmail.com">prithamaity152@gmail.com</a>
+    <a href="https://github.com/PrithaMaity2007">GitHub</a>
+  </section>
+
+  <footer>&copy; 2026 Pritha Maity</footer>
+</main>
+</body>
+</html>
